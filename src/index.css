@@ -7,7 +7,7 @@ body {
   width: 100dvw;
   overflow: hidden;
   height: 100dvh;
-  background-image: url("/images/wallpaperf.png");
+  background-image: url("/images/wp12221567.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -37,7 +37,7 @@ body {
   }
 
   nav {
-    @apply flex justify-between items-center bg-white/70 backdrop-blur-3xl p-2 px-5 select-none;
+    @apply flex justify-between items-center bg-white/40 backdrop-blur-3xl p-1 px-5 select-none;
 
     div {
       @apply flex items-center max-sm:w-full max-sm:justify-center gap-5;
