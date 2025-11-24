@@ -42,12 +42,12 @@ const dockApps = [
     icon: "finder.png",
     canOpen: true,
   },
-  {
+  /*{
     id: "safari",
     name: "Articles", // was "Safari"
     icon: "safari.png",
     canOpen: true,
-  },
+  },*/
   {
     id: "photos",
     name: "Gallery", // was "Photos"
@@ -62,7 +62,7 @@ const dockApps = [
   },
   {
     id: "terminal",
-    name: "Skills", // was "Terminal"
+    name: "Terminal", // was "Terminal"
     icon: "terminal.png",
     canOpen: true,
   },
@@ -132,9 +132,9 @@ const socials = [
     text: "Github",
     icon: "/icons/github.svg",
     bg: "#f4656b",
-    link: "https://github.com/JavaScript-Mastery-Pro",
+    link: "https://github.com/Mucca03",
   },
-  {
+  /*{
     id: 2,
     text: "Platform",
     icon: "/icons/atom.svg",
@@ -147,13 +147,13 @@ const socials = [
     icon: "/icons/twitter.svg",
     bg: "#ff866b",
     link: "https://x.com/jsmasterypro",
-  },
+  },*/
   {
     id: 4,
     text: "LinkedIn",
     icon: "/icons/linkedin.svg",
     bg: "#05b6f6",
-    link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+    link: "https://www.linkedin.com/in/alejandrobernalr/",
   },
 ];
 
@@ -225,7 +225,7 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Nike Ecommerce Website Application",
+      name: "Foward Logic Engine",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
@@ -247,11 +247,11 @@ const WORK_LOCATION = {
         },
         {
           id: 2,
-          name: "nike.com",
+          name: "Foward-logic.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+          href: "https://github.com/Mucca03/ForwardLogic-Engine",
           position: "top-10 right-20",
         },
         {
@@ -278,7 +278,7 @@ const WORK_LOCATION = {
     // ▶ Project 2
     {
       id: 6,
-      name: "AI Resume Analyzer",
+      name: "Chat ptp",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
@@ -286,7 +286,7 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "AI Resume Analyzer Project.txt",
+          name: "Chat ptp Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
@@ -300,11 +300,11 @@ const WORK_LOCATION = {
         },
         {
           id: 2,
-          name: "ai-resume-analyzer.com",
+          name: "chat-ptp.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+          href: "https://github.com/Mucca03/chat_ptp_room_selector",
           position: "top-20 left-20",
         },
         {
@@ -331,7 +331,7 @@ const WORK_LOCATION = {
     // ▶ Project 3
     {
       id: 7,
-      name: "Food Delivery App",
+      name: "Pet Managment App",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
@@ -339,7 +339,7 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Food Delivery App Project.txt",
+          name: "Pet Managment App Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
@@ -353,11 +353,11 @@ const WORK_LOCATION = {
         },
         {
           id: 2,
-          name: "food-delivery-app.com",
+          name: "pet-managment-app.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+          href: "https://github.com/Mucca03/pet-store-management-system",
           position: "top-10 right-20",
         },
         {
@@ -385,53 +385,47 @@ const WORK_LOCATION = {
 
 const ABOUT_LOCATION = {
   id: 2,
-  type: "about",
-  name: "About me",
+  type: "designs",
+  name: "Designs",
   icon: "/icons/info.svg",
   kind: "folder",
   children: [
     {
       id: 1,
-      name: "me.png",
-      icon: "/images/image.png",
+      name: "carousel.png",
+      icon: "/images/carrousel.png",
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/adrian.jpg",
+      imageUrl: "/images/carrousel.png",
     },
     {
       id: 2,
-      name: "casual-me.png",
-      icon: "/images/image.png",
+      name: "poster.png",
+      icon: "/images/titi.png",
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: "/images/adrian-2.jpg",
+      imageUrl: "/images/titi.png",
     },
     {
       id: 3,
-      name: "conference-me.png",
-      icon: "/images/image.png",
+      name: "icon-Celeste.png",
+      icon: "/images/iconCeleste.jpg",
       kind: "file",
       fileType: "img",
       position: "top-52 left-80",
-      imageUrl: "/images/adrian-3.jpeg",
+      imageUrl: "/images/iconCeleste.jpg",
     },
     {
       id: 4,
-      name: "about-me.txt",
-      icon: "/images/txt.png",
+      name: "Design.fig",
+      icon: "/images/plain.png",
       kind: "file",
-      fileType: "txt",
+      fileType: "fig",
+      href: "https://www.figma.com/design/8AQZo6vluMBTAv85NBmgz7/figma?node-id=0-1&t=NKTf8vCokGA26Z25-1",
       position: "top-60 left-5",
-      subtitle: "Meet the Developer Behind the Code",
-      image: "/images/adrian.jpg",
-      description: [
-        "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-        "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-        "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
-      ],
+      
     },
   ],
 };
