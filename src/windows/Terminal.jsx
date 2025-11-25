@@ -15,7 +15,7 @@ const Terminal = () => {
                 <p>
                     <span className="font-bold">alejandro@portfolio</span>
                     <span> ~ % </span>
-                    <span>cat skills.sh</span>
+                    <span>cat skills.sh </span>
                 </p>
 
             <div className ="label">
