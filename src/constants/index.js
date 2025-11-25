@@ -188,20 +188,20 @@ const photosLinks = [
 const gallery = [
   {
     id: 1,
-    img: "/images/gal1.png",
+    img: "/images/edit1.jpg",
   },
   {
     id: 2,
-    img: "/images/gal2.png",
+    img: "/images/edit2.png",
   },
   {
     id: 3,
-    img: "/images/gal3.png",
+    img: "/images/edit3.png",
   },
-  {
+  /*{
     id: 4,
     img: "/images/gal4.png",
-  },
+  },*/
 ];
 
 export {
@@ -393,7 +393,7 @@ const ABOUT_LOCATION = {
     {
       id: 1,
       name: "carousel.png",
-      icon: "/images/carrousel.png",
+      icon: "/images/image.png",
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
@@ -402,7 +402,7 @@ const ABOUT_LOCATION = {
     {
       id: 2,
       name: "poster.png",
-      icon: "/images/titi.png",
+      icon: "/images/image.png",
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
@@ -411,7 +411,7 @@ const ABOUT_LOCATION = {
     {
       id: 3,
       name: "icon-Celeste.png",
-      icon: "/images/iconCeleste.jpg",
+      icon: "/images/image.png",
       kind: "file",
       fileType: "img",
       position: "top-52 left-80",
