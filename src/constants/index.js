@@ -163,7 +163,7 @@ const photosLinks = [
     icon: "/icons/gicon1.svg",
     title: "Library",
   },
-  {
+  /*{
     id: 2,
     icon: "/icons/gicon2.svg",
     title: "Memories",
@@ -182,7 +182,7 @@ const photosLinks = [
     id: 5,
     icon: "/icons/gicon5.svg",
     title: "Favorites",
-  },
+  },*/
 ];
 
 const gallery = [
@@ -198,10 +198,10 @@ const gallery = [
     id: 3,
     img: "/images/edit3.png",
   },
-  /*{
+  {
     id: 4,
-    img: "/images/gal4.png",
-  },*/
+    img: "/images/edit4.gif",
+  },
 ];
 
 export {
@@ -233,16 +233,16 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Nike Project.txt",
+          name: "Foward Logic Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+            "The Java project delivers a forward-chaining inference engine capable of processing logical rules and generating new conclusions automatically.",
+            "Instead of relying on a simple condition matrix, it uses a dynamic inference graph that links each premise to its resulting outcome, improving clarity and scalability.",
+            "It works like a compact expert system—feed it initial facts, and the engine keeps inferring new ones through the defined rules.",
+            "Built with a clean and modular structure, it ensures efficient rule handling, clear logic flow, and easy extensibility for more advanced reasoning features.",
           ],
         },
         {
@@ -256,14 +256,14 @@ const WORK_LOCATION = {
         },
         {
           id: 4,
-          name: "nike.png",
+          name: "project-fc.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-1.png",
+          imageUrl: "/images/project-fc.png",
         },
-        {
+        /*{
           id: 5,
           name: "Design.fig",
           icon: "/images/plain.png",
@@ -271,7 +271,7 @@ const WORK_LOCATION = {
           fileType: "fig",
           href: "https://google.com",
           position: "top-60 right-20",
-        },
+        },*/
       ],
     },
 
@@ -292,12 +292,12 @@ const WORK_LOCATION = {
           fileType: "txt",
           position: "top-5 right-10",
           description: [
-            "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-            "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-            "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-            "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+          "This project enables real-time peer-to-peer communication using WebRTC and Socket.io,",
+          "It establishes a direct data channel between two clients after joining the same room,",
+          "It works like a minimal chat system with fast, low-latency message exchange,",
+          "It uses clean, event-driven JavaScript to manage signaling, connections, and data flow,",
           ],
-        },
+          },
         {
           id: 2,
           name: "chat-ptp.com",
@@ -309,14 +309,14 @@ const WORK_LOCATION = {
         },
         {
           id: 4,
-          name: "ai-resume-analyzer.png",
+          name: "chatptp.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 left-80",
           imageUrl: "/images/project-2.png",
         },
-        {
+        /*{
           id: 5,
           name: "Design.fig",
           icon: "/images/plain.png",
@@ -324,7 +324,7 @@ const WORK_LOCATION = {
           fileType: "fig",
           href: "https://google.com",
           position: "top-60 left-5",
-        },
+        },*/
       ],
     },
 
@@ -345,10 +345,10 @@ const WORK_LOCATION = {
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-            "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-            "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-            "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+            "This project is a PHP-based web system for managing a pet store’s clients, products, suppliers, and sales,",
+            "It includes user authentication, dynamic role-based menus, and PDF report generation using FPDF,",
+            "It provides modules for inventory control, client records, sales processing, and graphical summaries,",
+            "It features a responsive Bootstrap interface for a clean and accessible user experience,",
           ],
         },
         {
@@ -362,14 +362,14 @@ const WORK_LOCATION = {
         },
         {
           id: 4,
-          name: "food-delivery-app.png",
+          name: "pet-store.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-3.png",
+          imageUrl: "/images/project-pet.png",
         },
-        {
+        /*{
           id: 5,
           name: "Design.fig",
           icon: "/images/plain.png",
@@ -377,7 +377,7 @@ const WORK_LOCATION = {
           fileType: "fig",
           href: "https://google.com",
           position: "top-60 right-20",
-        },
+        },*/
       ],
     },
   ],
