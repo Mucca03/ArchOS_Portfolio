@@ -39,6 +39,33 @@ const navIcons = [
 
 //dockApp 
 
+const dockAppsPhone = [
+    {
+        id: "finder",
+        name: "Portfolio", // was "Finder"
+        icon: "finder.png",
+        canOpen: true,
+    },
+    {
+        id: "photos",
+        name: "Gallery", // was "Photos"
+        icon: "photos.png",
+        canOpen: true,
+    },
+    {
+        id: "contact",
+        name: "Contact", // or "Get in touch"
+        icon: "contact.png",
+        canOpen: true,
+    },
+    {
+        id: "terminal",
+        name: "Terminal", // was "Terminal"
+        icon: "terminal.png",
+        canOpen: true,
+    },
+];
+
 const dockApps = [
   {
     id: "finder",
@@ -317,6 +344,7 @@ export {
   navLinks,
   navIcons,
   dockApps,
+    dockAppsPhone,
   //blogPosts,
   techStack,
   socials,
@@ -596,6 +624,14 @@ export const locations = {
 
 const INITIAL_Z_INDEX = 1000;
 
+const WINDOW_CONFIG_PHONE = {
+    photos: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+    gallery: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+    contact: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+    finder: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },   // agregado
+    terminal: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null }, // agregado
+};
+
 const WINDOW_CONFIG = {
   finder: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   contact: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
@@ -607,4 +643,4 @@ const WINDOW_CONFIG = {
   imgfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
 };
 
-export { INITIAL_Z_INDEX, WINDOW_CONFIG };
+export { INITIAL_Z_INDEX, WINDOW_CONFIG, WINDOW_CONFIG_PHONE};

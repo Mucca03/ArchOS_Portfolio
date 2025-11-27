@@ -388,4 +388,136 @@ body {
       }
     }
   }
+
+    .navPhone {
+        @apply flex items-center justify-between;
+        height: 38px;                    /* ALTURA REAL DEL STATUS BAR */
+        background: rgba(0, 0, 0, 0.1);  /* Súper tenue */
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05); /* casi invisible */
+        color: white;
+    }
+
+    .navPhone .time {
+        @apply text-sm font-medium;
+        color: white;
+    }
+    .navPhone .left {
+        @apply flex items-center gap-2 flex-0 justify-end;
+    }
+
+    .navPhone .right {
+        @apply flex items-center gap-2 flex-1 justify-end;
+    }
+
+    @media (max-width: 640px) {
+        .navPhone {
+            @apply p-2 pt-3; /* más espaciado estilo iPhone */
+        }
+    }
+
+    /* Dock para iPhone */
+    .dockPhone {
+        @apply fixed bottom-3 left-1/2 -translate-x-1/2
+        flex items-center justify-center
+        gap-5
+        px-5 py-1.5
+        rounded-3xl
+        bg-white/15 backdrop-blur-xl
+        border border-white/10
+        text-white shadow-lg;
+
+        width: 88%;         /* más cercano al tamaño real */
+        max-width: 520px;   /* límite más parecido al iOS */
+    }
+
+    /* botones / iconos */
+    .dockPhone button {
+        @apply size-15 flex items-center justify-center rounded-2xl;
+        transition: transform 0.12s ease-out;
+    }
+
+    /* efecto al presionar */
+    .dockPhone button:active {
+        transform: scale(0.88);
+    }
+
+    /* imagen del ícono */
+    .dockPhone img {
+        @apply w-full h-full object-cover;
+        border-radius: 20%;
+    }
+    .dockPhone-container {
+        @apply flex items-center justify-center gap-6 w-full;
+    }
+
+    .welcomePhone {
+        @apply text-center text-white px-6 pt-20 pb-8;
+    }
+
+    .subtitlePhone {
+        @apply text-lg font-georama;
+    }
+
+    .titlePhone {
+        @apply text-5xl font-georama italic mt-4;
+        font-variation-settings: 'wght' 700;
+    }
+
+    #window-header-phone {
+        @apply flex items-center justify-between px-4 py-3 rounded-t-lg bg-gray-800 border-b border-gray-700 select-none text-sm text-gray-300;
+    }
+
+    #photos-phone {
+        @apply max-w-md w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white shadow-2xl rounded-xl overflow-hidden;
+
+        h2 {
+            @apply font-bold text-sm text-center w-full text-gray-200;
+        }
+
+        .sidebar-phone {
+            @apply w-full md:w-1/3 flex-none bg-gray-50 border-b md:border-b-0 md:border-r border-gray-200 flex flex-col p-3 md:p-5;
+
+            ul {
+                @apply space-y-1;
+
+                .active-phone {
+                    @apply bg-blue-100 text-blue-700;
+                }
+
+                .not-active-phone {
+                    @apply text-gray-700 hover:bg-gray-200;
+                }
+
+                li {
+                    @apply flex items-center gap-2 px-2 py-1 rounded-md cursor-pointer transition-colors;
+
+                    img {
+                        @apply w-5 md:w-4;
+                    }
+
+                    p {
+                        @apply text-sm font-medium;
+                    }
+                }
+            }
+        }
+
+        .gallery-phone {
+            @apply w-full p-3 md:p-5;
+
+            ul {
+                @apply grid gap-2 md:gap-3;
+                grid-template-columns: repeat(2, 1fr);
+                grid-auto-rows: 150px;
+
+                li img {
+                    @apply w-full h-full object-cover rounded-lg;
+                }
+            }
+        }
+    }
+
+
 }
